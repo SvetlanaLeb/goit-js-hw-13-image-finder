@@ -62,7 +62,7 @@ function onSearch(evt) {
 function onInputChange(e) {
   if (e.target.value === '') {
     clearImqContainer();
-    loadMoreBtn.disable();
+    loadMoreBtn.hide();
   }
 };
 
